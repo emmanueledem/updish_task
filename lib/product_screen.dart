@@ -50,8 +50,20 @@ class _ProductScreenState extends State<ProductScreen> {
                     onTab: () {},
                   ),
                   ProductContainer(
-                    title: 'Fried Rice',
+                    title: 'Soup Rice',
+                    images: AppAssets.product2,
+                    price: '34,000',
+                    onTab: () {},
+                  ),
+                  ProductContainer(
+                    title: 'Jollof Rice',
                     images: AppAssets.product1,
+                    price: '15,000',
+                    onTab: () {},
+                  ),
+                  ProductContainer(
+                    title: 'Jazzy Burger',
+                    images: AppAssets.product2,
                     price: '20,000',
                     onTab: () {},
                   ),
